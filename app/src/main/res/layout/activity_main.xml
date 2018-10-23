@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/connet_service"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="连接服务" />
+
+    <Button
+        android:id="@+id/acquire_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/connet_service"
+        android:text="数据" />
+
+
+</RelativeLayout>
